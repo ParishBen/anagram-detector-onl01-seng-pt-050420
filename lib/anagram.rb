@@ -12,7 +12,7 @@ class Anagram
  def match(words)
    getter=[]
    words.select do |word| if @name.length == word.length
-   getter<< @name.match(/[word]/)[0]
+   getter<< @name.match(/[word]/)
  end
  getter
   end
