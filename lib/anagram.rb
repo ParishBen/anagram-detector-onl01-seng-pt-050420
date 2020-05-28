@@ -10,7 +10,9 @@ class Anagram
     #matcher
  #end
  def match(words)
-   words.select do |word| @name(/[word]/)
+   getter=[]
+   words.select do |word| if @name.length == word.length
+   getter<< @name.match(/[word]/)[0]
   end
  end
  #def match(array)
