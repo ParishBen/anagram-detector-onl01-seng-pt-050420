@@ -13,6 +13,8 @@ class Anagram
    getter=[]
    words.select do |word| if @name.length == word.length
    getter<< @name.match(/[word]/)[0]
+ end
+ getter
   end
  end
  #def match(array)
